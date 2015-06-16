@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhigitalJS Sample Page</title>
+    <meta id="mview" name="viewport" content="width=320, initial-scale=1, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="https://cep.gophigital.com/js/phigital.js"></script>
+    <style>
+        div {
+            text-align: center;
+        }
+        button {
+            padding: 0 32px;
+            height: 72px;
+        }
+        label, input {
+            width: 180px;
+            height: 32px;
+            display: inline-block;
+        }
+    </style>
+    <script type="text/javascript">
+        function checkin() {
+            phigital.checkIn(document.getElementById('action_id').value);
+        }
+        function performAction() {
+            var eventName = document.getElementById('event_name').value;
+            var actionId = document.getElementById('action_id').value;
+            phigital.performAction({event_name: eventName, actionId: actionId})
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <label for="action_id">Event (Action) ID:</label><input id="action_id" /><br/>
+        <label for="event_name">Event Name:</label><input id="event_name" />
+    </div>
+    <div>
+        <button onclick="checkin()">Check In</button>
+        <button onclick="performAction()">Send External Event</button>
+    </div>
+</body>
+</html>
