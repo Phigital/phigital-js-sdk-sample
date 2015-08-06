@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Gamesalad Demo</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONTS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:400|Raleway:400,300,600,700" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
+    <!-- Phigital.js
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="https://cep.gophigital.com/js/phigital.js"></script>
+    <script type="text/javascript">
+        // uncomment the following line and specify the right protocol if using a white label app
+        // phigital.protocol = 'APP_DEEPLINK_PROTOCOL';
+        function performAction() {
+            phigital.performAction({event_name: "Gamesalad"})
+        }
+    </script>
+
+</head>
+<body style="font-family:'Roboto'; text-align:center;background-image: url('/images/HBackground.jpg'); background-size: 100%;">
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <div class="row">
+        <div class="one-half column" style="margin-top: 25%; color: #ffffff">
+            <h2 style="font-family:'Raleway'; color:#ff0000; ">Well Done!</h2>
+            <p>Please close this window by pressing</p>
+            <p>"<" (top left above) to continue.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Trigger the PerformAction from Phigital.js
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script type="text/javascript">
+    performAction()
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

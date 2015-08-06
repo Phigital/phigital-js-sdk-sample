@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game GSCVersion="0.12.10" PGFVersion="0.21" title="Alien Conquerors">
+    <tags>template, invaders</tags>
+    <resolutionIndependence>1</resolutionIndependence>
+    <instructions>Left and right keys to move. Spacebar to shoot.</instructions>
+    <resolution>1</resolution>
+    <scenes>
+        <scene id="id647149" label="Scene 2"/>
+        <scene id="id731297" label="End"/>
+    </scenes>
+    <longDescription>An alien invasion game. Protect your world.</longDescription>
+    <prototypes>
+        <actor id="id293917"/>
+        <actor id="id162286"/>
+        <actor id="id204155"/>
+        <actor id="id894113"/>
+        <actor id="id270645"/>
+        <actor id="id420973"/>
+        <actor id="id126545"/>
+        <actor id="id220147"/>
+        <actor id="id104216"/>
+        <actor id="id210204"/>
+        <actor id="id316015"/>
+        <actor id="id245139"/>
+        <actor id="id137305"/>
+        <actor id="id492162"/>
+        <actor id="id208556"/>
+        <actor id="id674335"/>
+    </prototypes>
+    <plugins>
+        <attributes id="playhaven"/>
+        <attributes id="qqgamecenter">
+            <boolean id="enabled">false</boolean>
+        </attributes>
+        <attributes id="kiip">
+            <text id="appKey">dcac1305b83f2ea21e3f4a129782e941</text>
+            <text id="appSecret">OWY2ZDFjNzlmMTYxYTYyMWZiODJmZWJmZmQxYmU3ZTQ=
+            </text>
+            <text id="achievementIdentifiers">ACHMNT_0001 ACHMNT_0002</text>
+            <text id="achievementNames">untitled untitled 2</text>
+            <text id="leaderboardIdentifiers">LDRBRD_0002 LDRBRD_0001 LDRBRD_0003</text>
+            <text id="leaderboardNames">untitled 2 untitled untitled 3</text>
+        </attributes>
+    </plugins>
+    <networkEnabled>0</networkEnabled>
+    <attributes>
+        <text id="name">default name</text>
+        <real id="time">0</real>
+        <size id="displaySize">
+            <real id="width">320</real>
+            <real id="height">480</real>
+        </size>
+        <text id="actorTags">Walls Aliens Projectiles</text>
+        <integer name="MoveDirection" id="id935538">1</integer>
+        <integer name="AlienCount" id="id378563">0</integer>
+        <table name="QQ Scoreboard" id="id140942">QQ Scoreboard</table>
+        <table name="QQ Achievements" id="id209212">QQ Achievements</table>
+        <table name="Purchases" id="id836497">Purchases</table>
+        <table name="PurchaseTable" id="id284118">PurchaseTable</table>
+    </attributes>
+</game>

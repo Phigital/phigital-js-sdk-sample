@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table version="1.000000" name="QQ Scoreboard" numRows="1" numCols="2" flags="" tableType="">
+    <rows>
+        <row id="0" name=""/>
+    </rows>
+    <columns>
+        <column id="0" name="ID" type="2" readonly="1">       0</column>
+        <column id="1" name="Score" type="2" readonly="0">       0</column>
+    </columns>
+</table>
